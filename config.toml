@@ -1,4 +1,11 @@
 baseURL = "https://samyn.co"
 languageCode = "en-us"
-title = "Marcel Samyn's Unfinished Home Page"
+title = "Marcel Samyn"
 theme = "ananke"
+
+[params]
+  featured_image = "/images/hero.jpg"
+  instagram = "https://instagram.com/himarcel"
+  twitter = "https://twitter.com/mrclsmn"
+  github = "https://github.com/iamarcel"
+  body_classes = "avenir bg-near-white"
