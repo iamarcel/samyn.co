@@ -1,5 +1,5 @@
 ---
-title: "The One Thing: Notes"
+title: "Book Notes: The One Thing"
 date: 2018-05-23T08:16:49+02:00
 draft: false
 ---
@@ -16,25 +16,90 @@ You only need just enough discipline until you've formed a habit. That means suc
 
 
 ** Balance
-The magic happens at the extremes. Time waits for no one. In the middle, not much happens.
+The magic happens at the extremes. Time waits for no one. In the middle, not
+much happens.
 
-Extraordinary results require extremely focused attention but you have multiple, competing priorities. Enter *counterbalancing*:
+Extraordinary results require extremely focused attention but you have multiple,
+competing priorities. Enter *counterbalancing*:
 
 1. Leave things undone
 2. Have extreme focus and get extraordinary results
 3. Swing back to the other side and repeat
 
-In work, you can swing extremely far. In your personal life, you'll need to be less extreme because you can't afford things to get that much out of hand.
+In work, you can swing extremely far. In your personal life, you'll need to be
+less extreme because you can't afford things to get that much out of hand.
 
-Stop thinking of /balance/ but call it /priority/---that'll help you get a good feel of how to manage this.
+Stop thinking of /balance/ but call it /priority/---that'll help you get a good
+feel of how to manage this.
 
 
 ** Big is Bad
 
-No one knows our limits. If you knew, you'd probably get as close as you could to it.
+No one knows our limits. If you knew, you'd probably get as close as you could
+to it.
 
-The only actions that lead to succeeding big are thos that started from thinking big in the first place.
+The only actions that lead to succeeding big are thos that started from thinking
+big in the first place.
 
 As you experience big, you /become/ big.
 
-Don't fear thinking big. Fear mediocricy. Fear waste. Fear the lack of living to your fullest.
+Don't fear thinking big. Fear mediocricy. Fear waste. Fear the lack of living to
+your fullest.
+
+
+* The Truth
+  We usually succeed /in spite of/ rather than /because/ of what we're doing.
+
+  Success comes down to being appropriate in the moments of your life.
+
+** The Focusing Question
+   Keep your focus sharp. Work on one thing, work on the one next step for that
+   one thing.
+
+   #+BEGIN_QUOTE
+   "What's the *one* thing I can do such that, by doing it, everything else will
+   be easier or unnecessary?" -- The Focusing Questions.
+   #+END_QUOTE
+
+** The Success Habit
+   The Success Habit is about asking yourself the Focusing Question a lot, in
+   the moments and areas where it matters (in some areas you might not want it).
+
+** Great Questions and Answers
+   A Great Question is (a) big and (b) specific.
+
+   To get great answers, don't do what's doable or a stretch, but go for the
+   /possibility/, where you have to change your approach, innovate and learn a
+   new way. So your first One Thing after a question is to figure out what the
+   possibilities are.
+
+* Extraordinary Results
+  #+BEGIN_QUOTE
+  "Even if you're on the right track, you'll get run over if you just sit there"
+  #+END_QUOTE
+  
+  
+** Extraordinary Results
+
+   On the surface you only see someone's productivity but that's rooted in their
+   purpose and priorities. Ask yourself:
+
+   - The Big One Thing :: to find your purpose
+   - The Small One Thing :: to find your priority and actions
+
+   those will create your productivity.
+
+** Live with Purpose
+   Your priority determines the productivity of your actions.
+
+   One of the surest ways to be happier is to give your life more *meaning*. Ask
+   yourself this question often: /how can I make this month/week/day more
+   meaningful?/
+
+   Financially wealthy people are those who have enough money coming in so that
+   they don't need to work in order to finance their purpose. (note that you
+   need to have a purpose before you can be financially wealthy)
+   
+   Don't know your purpose? Pick a direction, start marching down that path and
+   see how you like it. Time brings clarity and if you don't like it, you can
+   always change your mind. It's your life.
