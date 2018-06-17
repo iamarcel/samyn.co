@@ -22,35 +22,13 @@ console apps.
 
 Ready? Cool, me too.
 
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgheadline4">1. Introduction to the package</a>
-<ul>
-<li><a href="#orgheadline1">1.1. What can we do?</a></li>
-<li><a href="#orgheadline2">1.2. Structure of your application</a></li>
-<li><a href="#orgheadline3">1.3. Getting help</a></li>
-</ul>
-</li>
-<li><a href="#orgheadline8">2. Creating/Becoming a Console Ninja</a>
-<ul>
-<li><a href="#orgheadline5">2.1. The Application</a></li>
-<li><a href="#orgheadline6">2.2. A Command</a></li>
-<li><a href="#orgheadline7">2.3. Arguments and Options</a></li>
-</ul>
-</li>
-<li><a href="#orgheadline9">3. That's it! (for now)</a></li>
-<li><a href="#orgheadline10">4. Further Reading</a></li>
-</ul>
-</div>
-</div>
+{{% toc %}}
 
-# Introduction to the package<a id="orgheadline4"></a>
+# Introduction to the package
 
 Basically, the `CommandLineUtils` package parses your arguments and helps you structure the different parts of your application. It makes it very easy to allow your app to accept all kinds of parameters, according to the conventions you probably know and love. 
 
-## What can we do?<a id="orgheadline1"></a>
+## What can we do?
 
 Let's assume we're creating an app called `ninja`. I'll list a couple of possible commands while I introduce you to the terminology used in the package. Whenever a word like Command, Option or Argument is capitalized, that means I'm talking about its specific definition regarding to the `CommandLineUtils` package.
 
@@ -62,7 +40,7 @@ Let's assume we're creating an app called `ninja`. I'll list a couple of possibl
 Of course, we can start mixing and matching to make really powerful types of
 commands. But once you've got the basics, everything else is easy-peasy.
 
-## Structure of your application<a id="orgheadline2"></a>
+## Structure of your application
 
 So if we look at what we have above, the structure of our application will look
 like this:
@@ -73,18 +51,18 @@ like this:
             civilians`)
     -   More commands like `hide` and `weapon`, with their own Arguments and Options
 
-## Getting help<a id="orgheadline3"></a>
+## Getting help
 
 Help is essential to any application, especially if it's a command line
 application. The package is super-helpful here: you just specify some
 explanation with yout Commands, Arguments and Options, and it'll spit out neatly
 formatted and organized help when your user needs it.
 
-# Creating/Becoming a Console Ninja<a id="orgheadline8"></a>
+# Creating/Becoming a Console Ninja
 
 Let's dive in and start doing some coding.
 
-## The Application<a id="orgheadline5"></a>
+## The Application
 
 We create our application by creating a `CommandLineApplication`.
 
@@ -119,7 +97,7 @@ app.Execute(args);
 Now, "Hello World!" will be printed when you run the app. If you specify, for
 example `--help`, an (empty) help thing will show up. Neat uh?
 
-## A Command<a id="orgheadline6"></a>
+## A Command
 
 This is how we create a Command:
 
@@ -181,7 +159,7 @@ Options:
 
 Neat!
 
-## Arguments and Options<a id="orgheadline7"></a>
+## Arguments and Options
 
 You saw that with the `command.Argument` function we, well, created an argument!
 Just pass on the name and description (again, for the help output) and
@@ -254,7 +232,7 @@ $ ninja attack -e dragons -s --exclude=animals
 
 Neat!
 
-# That's it! (for now)<a id="orgheadline9"></a>
+# That's it! (for now)
 
 Well done! You got the basics down and are now ready to create really cool
 console applications. All hail the command line! Now go out and impress your
@@ -267,17 +245,17 @@ best way to neatly *organize* our neat app? I got ya covered. The guys at Entity
 Framework did a really good job in their tooling; I analyzed their sources with
 my lazer eyes and wrote you a simple guide (and a little framework!).
 
-[Read on about structuring neat console apps neatly](https://gist.github.com/iamarcel/9bdc3f40d95c13f80d259b7eb2bbcabb).
+[Read on about structuring neat console apps neatly](https://samyn.co/post/structuring-neat-net-core-console-apps/).
 
 Shoutout to [4D Vision](http://4dvision.be) for letting me write this while working as a student for
 them! They build custom software for complex processes of companies and
 organizations; not to mention they're really cool people. This article is also
 part of their internal documentation now.
 
-Thanks for reading! If you wanna keep up with my work, [follow me on twitter](https://twitter.com/mrclsmn)
+Thanks for reading! If you wanna keep up with my work, [follow me on twitter](https://twitter.com/marcelsamyn)
 because that's where the cool guys are at, right?
 
-# Further Reading<a id="orgheadline10"></a>
+# Further Reading
 
 -   [Essential .NET - Command-Line Processing with .NET Core 1.0](https://msdn.microsoft.com/en-us/magazine/mt763239.aspx)
 -   [Microsoft.Extensions.CommandLineUtils API Docs](https://docs.asp.net/projects/api/en/latest/autoapi/Microsoft/Extensions/CommandLineUtils)
