@@ -1,0 +1,226 @@
++++
+title = "Structuring Neat .NET Core Command Line Apps Neatly"
+date = 2016-09-08T16:15:17
+math = false
+highlight = true
+tags = ["development"]
++++
+
+So you've [[https://gist.github.com/iamarcel/8047384bfbe9941e52817cf14a79dc34][created a really neat console app]], but it's growing and you need a way
+to keep it all neatly organized and preferrably with some Good Practices.
+
+The guys at Entity Framework have thought about this and structured their
+console app really neatly. Today, we'll take the ninja app we [[https://gist.github.com/iamarcel/8047384bfbe9941e52817cf14a79dc34][built previously]]
+and make it all look pretty and stuff.
+
+[[https://github.com/iamarcel/dotnet-core-neat-console-starter][I know what I'm doing, just gimme the damn framework!]]
+
+* Separation of Concerns, Please
+We'll start by breaking up our commands. A couple of requirements:
+
+- Each Command should live in its own file/class
+- Separate setting up options and arguments from the actual execution
+- Let the main execution start at the root; Command classes shouldn't do
+  anything on their own
+
+Every Command will have three methods:
+- A static ~Configure~ method that sets up the Arguments, Options and nested
+  Commands
+- A constructor to pass in properties (done in ~OnExecute~, in ~Configure~)
+- A ~Run~ method that actually executes the command
+
+
+Like this:
+
+#+BEGIN_SRC csharp
+  // Commands/ICommand.cs
+  public interface and {
+      void Run();
+  }
+
+  // Commands/AttackCommand.cs
+  public class AttackCommand : ICommand {
+      public static void Configure(CommandLineApplication command) {
+
+          command.Description = "Instruct the ninja to hide in a specific location.";
+          command.HelpOption("-?|-h|--help");
+
+          var locationArgument = command.Argument("[location]",
+                                                  "Where the ninja should hide.");
+
+          command.OnExecute(() => {
+                  (new AttackCommand(locationArgument.Value)).Run();
+                  return 0;
+              });
+      }
+
+      private readonly string _location;
+
+      public AttackCommand(string location) {
+          _location = location;
+      }
+
+      public void Run() {
+          var location = _location != null
+              ? _location
+              : "in a trash can";
+          Console.WriteLine("Ninja is hidden " + location);
+      }
+  }
+#+END_SRC
+
+Now we can clean up ~Main~ quite a bit:
+
+#+BEGIN_SRC csharp
+  // Set up the app
+  var app = new CommandLineApplication();
+  app.Name = "ninja";
+  app.HelpOption("-?|-h|--help");
+
+  // Register commands
+  app.Command("hide", HideCommand.Configure);
+  app.Command("attack", AttackCommand.Configure);
+
+  app.OnExecute(() => {
+          (new CommandLineApplication(app)).Run();
+          return 0;
+      });
+
+  // Fire!
+  app.Execute(args);
+#+END_SRC
+
+* Root Application
+It's starting to look neat but we can do even better. First, since the app is
+just another command we can move it to its own class:
+
+#+BEGIN_SRC csharp
+  // Commands/RootCommand.cs
+  public class RootCommand : ICommand {
+
+      public static void Configure(CommandLineApplication app) {
+          app.Name = "ninja";
+          app.HelpOption("-?|-h|--help");
+
+          // Register commands
+          app.Command("hide", HideCommand.Configure);
+          app.Command("attack", AttackCommand.Configure);
+
+          app.OnExecute(() => {
+                  (new RootCommand(app)).Run();
+                  return 0;
+              });
+      }
+
+      private readonly CommandLineApplication _app;
+
+      public RootCommand(CommandLineApplication app) {
+          _app = app;
+      }
+
+      public void Run() {
+          _app.ShowHelp();
+      }
+
+  }
+#+END_SRC
+
+So now ~Main~ is only three lines!
+
+#+BEGIN_SRC csharp
+  // Program.cs
+  var app = new CommandLineApplication();
+  RootCommand.Configure(app);
+  app.Execute(args);
+#+END_SRC
+
+* Global Options
+One more feature: I'd like to have some global options that we can pass along
+and use in any child Command we'd like.
+
+To do this, we'll create a ~CommandLineOptions~ class and basically move
+everything there. And while we're at it, store the Command to be executed as an
+option. That fulfills the requirement of the Commands not doing anything by
+themselves.
+
+#+BEGIN_SRC csharp
+  public class CommandLineOptions {
+
+      public static void Parse(string[] args) {
+          var options = new CommandLineOptions();
+
+          var app = new CommandLineApplication();
+
+          var isQuietOption = app.Option("--extra-quiet|-q",
+                                         "Instruct the ninja to do its best to be even more quiet",
+                                         CommandOptionType.NoValue);
+
+          RootCommand.Configure(app, options);
+
+          options.IsQuiet = isQuietOption.HasValue();
+
+          var result = app.Execute(args);
+
+          if (result != 0 || options.Command == null) {
+              Console.Error.WriteLine("Fail");
+              return null;
+          }
+
+          return options;
+      }
+
+      public CommandLineApplication Command;
+      public bool IsQuiet;
+
+  }
+#+END_SRC
+
+We'll need to make three changes in every Command now:
+1. Change ~OnExecute~ so it changes ~options.Command~ to the command itself
+2. Update ~Configure~ to accept the new argument
+3. Update any child ~Command~ calls in order ro be compatible with the new
+   ~Configure~ API
+
+For example, in RootCommand:
+
+#+BEGIN_SRC csharp
+  // Commands/RootCommand.cs
+  public class RootCommand : ICommand {
+
+      public static void Configure(CommandLineApplication app, CommandLineOptions options) {
+          app.Name = "ninja";
+          app.HelpOption("-?|-h|--help");
+
+          // Changed here
+          app.Command("hide", c => HideCommand.Configure(c, options));
+          app.Command("attack", c => AttackCommand.Configure(c, options));
+
+          app.OnExecute(() => {
+                  options.Command = new RootCommand(app);
+                  return 0;
+              });
+      }
+
+      private readonly CommandLineApplication _app;
+
+      public RootCommand(CommandLineApplication app) {
+          _app = app;
+      }
+
+      public void Run() {
+          _app.ShowHelp();
+      }
+
+  }
+#+END_SRC
+
+You get the idea.
+
+But wait, that's not all!
+
+*** My Gift to You: [[https://github.com/iamarcel/dotnet-core-neat-console-starter][~dotnet-core-neat-console-starter~]]
+There's some boilerplating going on here. So I made a little starter kit for you
+to kickstart your adventures creating console applications!
+
+It's [[https://github.com/iamarcel/dotnet-core-neat-console-starter][up on GitHub]] so go ahead, use it and make more beautiful console apps,
+on the outside and on the inside!
