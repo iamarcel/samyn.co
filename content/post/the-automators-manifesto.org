@@ -1,0 +1,49 @@
++++
+title = "The Automators' Manifesto"
+date = 2015-02-03T14:15:17
+math = false
+highlight = false
+tags = ["life"]
++++
+
+We are humans, and humans are destined to do great things. We laugh, play, dance, create, invent, explore and love.
+
+We are not machines. We are not made to do the same thing over and over again.
+
+Let the machines be machines and let us be humans.
+
+This is what we stand for.
+
+** We Embrace Technology and Make It Work for Us
+
+ Technology is beautiful. It grows exponentially and using it makes us grow just as fast.
+
+ The phones in our pockets and computers on our desk carry an immense power. We use that power to enrich our lives and do more meaningful things.
+
+ We do not let machines control us. We are in full control and make them work for us.
+
+** It’s All About Focus
+
+ It used to be that “knowledge is power,” but this isn’t true anymore: now, focus is power. The biggest corporations in this world earn their billions from distracting you and the ability to single-task is the most important skill you can have.
+
+ We eliminate ruthlessly what we don’t need or doesn’t fulfill us and pour everything we’ve got in what matters to us. We invest in ourselves, the people we love and unforgettable experiences.
+
+** Every Repetition Is an Opportunity
+
+ Every time we find ourselves doing the same thing twice, we stop and find a way to do this faster and more efficiently next time—or even make it automatic.
+
+ Everything we do over and over, every copy-paste, is a chance to eliminate time we spend being machines and an opportunity to spend more time being human.
+
+ We realize that putting in a bit more effort in the beginning can and will give us things we can reap the benefits from forever.
+
+** Creation and Contribution Drive Us
+
+ We are makers, not consumers. We create new ways to make technology work for us. But we don’t just do this for ourselves—we share our creations and insights with the world, so everyone benefits from what we do.
+
+** We Use Our Tools to Their Full Power
+
+ We master the few tools we use. We don’t fuss about finding the best tool, but instead make the best use of what we have. Chase Jarvis, award-winning photographer, said “The best camera is the one you have with you.” We apply this principle everywhere.
+
+*** Further reading
+
+ Check out Cal Newport’s [[http://calnewport.com/blog/2016/12/18/on-digital-minimalism/][On Digital Minimalism]] for more thoughts on this topic.

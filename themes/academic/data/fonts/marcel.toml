@@ -1,0 +1,16 @@
+# Font style metadata
+name = "Marcel"
+
+# Optional Google font URL
+google_fonts = "Alegreya+SC:800|Alegreya:400,400i,700|Inconsolata"
+
+# Font families
+heading_font = "Alegreya"
+small_heading_font = "Alegreya SC"
+body_font = "Alegreya"
+nav_font = "Alegreya SC"
+mono_font = "Inconsolata"
+
+# Font size
+font_size = "16"
+font_size_small = "14"

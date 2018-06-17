@@ -6,7 +6,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "Marcel Samyn"
+title = "Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -38,7 +38,7 @@ enableGitInfo = false
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/readfiles/bfconfig/
+#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
@@ -47,32 +47,31 @@ enableGitInfo = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "marcel"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "marcel"
+  font = "default"
 
   # Your details.
-  name = "Marcel Samyn"
-  role = "Computer science student by day. Designer–web-developer–photographer–performance-obsessed–theater-making maniac by night."
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Ghent University", url = "https://ugent.be" }, { name = "Litoziekla",
-  url = "http://litoziekla.be" } ]
+  organizations = [ { name = "Stanford University", url = "" } ]
 
-  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
-  # avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "w@mrcl.io"
-  # address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  # phone = "888 888 88 88"
-  # skype = "echo123"
-  # telegram = ""
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "test@example.org"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
+  telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
-  keybase = "mrcl"
+  keybase = ""
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -107,20 +106,20 @@ enableGitInfo = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "15:04"
+  time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
   reading_time = true
 
   # Display comment count? Requires commenting to be enabled.
-  comment_count = false
+  comment_count = true
 
   # Display next/previous section pager?
   section_pager = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = true
+  math = false
 
   # Highlight.js options
   #   highlight
@@ -150,8 +149,8 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["cs"]
-  highlight_style = "github"
+  highlight_languages = []
+  # highlight_style = "github"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -159,11 +158,11 @@ enableGitInfo = false
   # Privacy pack
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = true
+  privacy_pack = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["custom.css"]
+  custom_css = []
   custom_js  = []
 
   # Publication types.
@@ -180,8 +179,7 @@ enableGitInfo = false
     'Manuscript',  # 3
     'Report',  # 4
     'Book',  # 5
-    'Book section',  # 6
-    'Article'  # 7
+    'Book section'  # 6
   ]
 
   # Configuration of talk pages.
@@ -228,22 +226,22 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:dev+website@mrcl.io"
+    link = "mailto:test@example.org"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/marcelsamyn"
+    link = "//twitter.com/GeorgeCushen"
 
   [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fa"
-    link = "//linkedin.com/in/marcelsamyn"
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/iamarcel"
+    link = "//github.com/gcushen"
 
 
 # Navigation Links
@@ -259,10 +257,10 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-# [[menu.main]]
-#   name = "Publications"
-#   url = "#publications_selected"
-#   weight = 2
+[[menu.main]]
+  name = "Publications"
+  url = "#publications_selected"
+  weight = 2
 
 [[menu.main]]
   name = "Posts"
@@ -274,10 +272,10 @@ enableGitInfo = false
   url = "#projects"
   weight = 4
 
-# [[menu.main]]
-#   name = "Teaching"
-#   url = "#teaching"
-#   weight = 5
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
 
 [[menu.main]]
   name = "Contact"

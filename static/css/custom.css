@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+#navbar-main {
+  box-shadow: none;
+  border-bottom: 1px solid #eee;
+}
+
+dd {
+  margin-left: 1rem;
+}
+
+figcaption {
+  font-size: 0.75em;
+  font-style: italic:
+  color: #999;
+  text-align: center;
+}
