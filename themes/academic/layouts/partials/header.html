@@ -107,6 +107,9 @@
   <link rel="canonical" href="{{ .Permalink }}">
 
   <meta property="twitter:card" content="summary_large_image">
+  {{ if .Params.header.image }}
+  {{- with .Params.header.image }}<meta property="twitter:image" content="{{ printf "img/%s" . | absURL }}">{{end}}
+  {{ end }}
   {{ range where $.Site.Params.social ".icon" "twitter" }}
   <meta property="twitter:site" content="@{{ replaceRE "^//twitter.com/([^/]+)" "$1" .link }}">
   <meta property="twitter:creator" content="@{{ replaceRE "^//twitter.com/([^/]+)" "$1" .link  }}">

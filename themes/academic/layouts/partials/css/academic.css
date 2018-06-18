@@ -22,16 +22,15 @@
 
 html {
   font-family: '{{ .Get "body_font" }}', sans-serif;
-  /* font-size: {{ .Get "font_size_small" }}px; */
-  font-size: 100%;
+  font-size: {{ .Get "font_size_small" }}px;
   color: rgba(0,0,0,0.8);
-  line-height: 1.414;
+  line-height: 1.618;
 }
-/* @media screen and (min-width: 58em) { */
-/*   html { */
-/*     font-size: {{ .Get "font_size" }}px; */
-/*   } */
-/* } */
+@media screen and (min-width: 58em) {
+  html {
+    font-size: {{ .Get "font_size" }}px;
+  }
+}
 
 body {
   font-family: inherit;
