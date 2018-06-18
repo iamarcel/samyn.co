@@ -4,6 +4,10 @@ date = 2018-06-17T12:15:17
 math = true
 highlight = false
 tags = ["academic"]
+
+[header]
+image = "headers/ups-plane.jpg"
+caption = "Image Credit: [Andy Leung on Pixabay](https://pixabay.com/en/users/AndyLeungHK-4930458/)"
 +++
 
 This is a very dense summary of the topic of /Big Data Science/, i.e., the
@@ -13,6 +17,8 @@ the same name I followed at Ghent University in 2018.
 If you're new to the topic and adventurous or interested in what you might not
 know yet, you can use this to get an idea of the topic and use it as starting
 point for further research.
+
+{{% toc %}}
 
 * Introduction
   - Data Science :: the science of how to extract insight from data
