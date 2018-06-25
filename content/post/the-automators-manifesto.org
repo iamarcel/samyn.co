@@ -3,7 +3,7 @@ title = "The Automators' Manifesto"
 date = 2015-02-03T14:15:17
 math = false
 highlight = false
-tags = ["life"]
+tags = ["high-performance"]
 +++
 
 We are humans, and humans are destined to do great things. We laugh, play, dance, create, invent, explore and love.
