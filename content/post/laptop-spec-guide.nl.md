@@ -3,6 +3,7 @@ title = "Gids: de perfecte studeerlaptop"
 date = 2018-06-20T10:15:17
 math = false
 highlight = false
+draft = true
 tags = ["technology"]
 +++
 
