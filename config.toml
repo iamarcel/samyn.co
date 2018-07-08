@@ -155,7 +155,9 @@ enableGitInfo = false
   highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
+
+  addThis = "ra-5b420341183e2440"
 
   # Privacy pack
   #   Show a cookie consent message to visitors

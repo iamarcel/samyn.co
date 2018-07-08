@@ -49,6 +49,8 @@ Achieving more in your life then comes down to increasing the value of your
 time. I've listed some quick questions you can ask yourself right now. (Write
 down the answers if you do! It'll help you organize your thoughts.)
 
+{{< tweet 1015491399746314240 >}}
+
 But the big principle I want to show you, what I call *leverage stacking*, is
 not about some quick questions and actions. It's a process you'll hopefully
 start implementing today and using for the rest of your life. (I am, at least!)
@@ -172,6 +174,8 @@ The more important takeaway, though, is that *you don't need automation to make
 processes run more efficiently*. It's okay if there's still a human factor.
 People do better work if they know what to do and if you free them up so they
 can focus more on the creative tasks humans truly excel at.
+
+{{< tweet 1013680946162348032 >}}
 
 # In Summary
 
