@@ -13,11 +13,13 @@ header:
   caption: "Build systems that make your work easier and your value will explode."
 ---
 
+<iframe style="margin:auto" src="https://anchor.fm/marcel-samyn/embed/episodes/Episode-2-Why-the-Foundation-of-a-Successful-Life-is-Building-a-Leverage-Stack-e1p18b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 To become massively successful, you need to give massive value to the world. But
 if you think you can do that by hustling and grinding day and night, I'm sorry
 to say, you're wrong. You see, playing with time is an inherently losing game:
-we all have only 24 hours a day and a lot less when you factor in that you need
-quality sleep, downtime and time to [reward
+we all have only 24 hours a day---actually a lot less when you factor in that
+you need quality sleep, downtime and time to [reward
 yourself](https://samyn.co/post/reward-yourself/). The trade for time is
 severely limited because there's only so much you can trade in.
 
@@ -29,36 +31,33 @@ businesses.
 
 # Thinking about time
 
-The key realization here is that *time is your most valuable asset,* simply
-because it's so scarce. If you routinely let yourself be distracted or if you
-spend time where it's not valuable (for example, working a low-wage job or
-working for free if you don't enjoy it), you know some initial opportunities for
-improvement.
-
-{{< figure src="img/train-bird.jpg" caption="Life is fast and *will* hit you. Your time is your most valuable asset." >}}
-
-Making this realization a core part of your thought process helps you make
-better decisions throughout the day. One example is that you now know how
-detailed a task list should be: some people don't use it at all and forget their
-commitments, others add tasks that are too detailed so they get distracted and
-slow down because of their system. So the tasks in your task management app
-should lie in between: they shouldn't be things you know without thinking;
-instead, they should mainly serve as *triggers* so you remember.
-
-Achieving more in your life then comes down to increasing the value of your
-time. I've listed some quick questions you can ask yourself right now. (Write
-down the answers if you do! It'll help you organize your thoughts.)
+The key realization in thinking about time is that *it's your most valuable
+asset,* simply because it's so scarce. Literally, right now, the clock is
+ticking and you're a few seconds closer to death than you were just a moment
+ago---and there's no way to get them back. Doesn't it make sense then that you'd
+trade *anything* for even a little bit of time saved? There are just so many
+things that most of us do every day, that are pure wastes of time: scrolling
+through your social media feed, going to parties of friends you don't really
+like that much, feeling bad or ruminating about something. See, Tony Robbins
+said "life is too short too suffer" and I tend to agree with that statement.
 
 {{< tweet 1015491399746314240 >}}
 
-But the big principle I want to show you, what I call *leverage stacking*, is
-not about some quick questions and actions. It's a process you'll hopefully
-start implementing today and using for the rest of your life. (I am, at least!)
+Making this realization a core part of your thought process helps you make
+better decisions throughout the day. For example, I learned about how complicated
+my task management system should be. The goal is that it should *save time*, so
+you should put things in so the system can trigger you or help you remember, but
+don't add tasks that are too detailed you'd know them anyways. Then the system
+is just slowing your time.
 
-> - What are the most important things for me to spend time on?
-> - What can I drop and stop doing?
-> - How can I get more done in less time?
-> - What can I do so I don't have to do this again in the future?
+{{< figure src="img/train-bird.jpg" caption="Life is fast and *will* hit you. Your time is your most valuable asset." >}}
+
+Okay, you probably knew you're going to die at some point. I just wanted to get
+to this conclusion: *building a remarkable life is maximizing the value of your
+time.* And leverage stacking is the foundation of this. This is not a "quick
+hacks" ot "10 tips" but it's a framework that you can use for the rest of your
+life.
+
 
 # Leverage Stacking
 
@@ -79,19 +78,17 @@ This is what every productivity system does: it creates leverage. A system that
 helps you be more productive reduces the number of things you have to spend time
 on and converts them into an asset, something you *have* instead of *do*. And
 so, the most powerful thing you can do is *producing things that produce
-leverage*. Set up a morning routine, learn how to use your the productivity
-software you use daily better, create playbooks and checklists for things you do
-often where you tend to miss steps.
+leverage*. Some examples are: setting up a morning routine, learning how to
+become an expert with the software you use daily (like your text editor or
+Excel) and creating playbooks and checklists for things you do often where you
+tend to miss steps.
 
 {{< figure src="img/showing-programming.jpg" caption="Switch from *doing* to *creating*. Build assets that support you and increase your value. [Photo from Delaware and Barco’s 2018 Software Study Trip](https://www.softwarestudytrip.com/)" >}}
 
-**Leverage stacking** happens when you consciously think about and plan to use
-the systems that give you leverage. Here, you use the systems and techniques you
-built previously to keep accelerating in the next step you take. This way you
-build up a collection of leverage-producing assets that make you more effective,
-valuable and thus wealthy[fn: I use the term *wealthy* not only in terms of
-money but also in health, energy, relationships etc. It's about a complete life
-where *everything* is awesome.].
+**Leverage stacking** is using the systems and tools you used previously to
+build new leverage-producing systems on top of them. This way you build up a
+collection of leverage-producing assets that make you more effective, valuable
+and thus wealthy[^wealth].
 
 Ray Dalio understood this principle a long time ago and built his investment
 firm Bridgewater Associates around it. Every investment decision they make is
@@ -116,7 +113,7 @@ The first system we're working with is you. Continuous education is and always
 will be the cornerstone of your personal growth. Learning something gets you
 from zero to producing valuable results and making smart decisions. You need to
 know what you're doing before you can actually do something meaningful. Reading
-this is building your internal leverage, so good job!
+this, by the way, is building your internal leverage, so good job!
 
 What are the best things to learn? I think you should have a grip on a broad
 range of subjects and then specialize in a narrow skill that is rare and
@@ -129,13 +126,15 @@ Work (about thriving in a world of distraction).
 ## Step 2: External Leverage - Systemization
 
 The core of your leverage stack is systemization. This is where you stop just
-*doing things* and start *creating things*. Look around and notice that a lot of
-the things you do are relatively simple repeated processes. Formalize these
-processes so they become a system and you don't have to think about doing it
-anymore. That frees you so you can start thinking about how to *improve* these
-processes instead. You might find a way to simplify some steps, make them run
-faster or delegate them. You've just created something that gives you leverage
-and thus increases the value of your time.
+*doing things* and start *creating things*. From now on, try to look at what you
+do and what happens around you---and notice that a lot of the things in this
+world are relatively simple repeated processes or a combination of processes.
+Once you formalize these processes, they become a system and you don't have to
+think about doing it anymore. This formalization is not hard, a simple checklist
+can be a really good system. Now you're free to start thinking about how to
+*improve* these processes instead. You might find a way to simplify some steps,
+make them run faster or delegate them. You've just created something that gives
+you leverage and thus increases the value of your time.
 
 Because your systems don't disappear, they can build on top of each other and
 their value grows exponentially. You can use this to keep building more powerful
@@ -159,8 +158,8 @@ fundamentally part of how work in a business is organized:
 {{< figure src="/img/chart-building-leverage.svg" >}}
 
 Your value is determined by the time you spend doing things and the leverage you
-have. Progress is using that time to create assets that give you leverage, thus
-making your time more valuable and increasing your value.
+have. To make progress, you use that time to create assets that give you
+leverage, thus making your time more valuable and increasing your value.
 
 ## Step 3: Passive Leverage - Automation
 
@@ -183,3 +182,6 @@ can focus more on the creative tasks humans truly excel at.
 - Stack these systems, i.e., keep building new systems that make use of the previous ones
 - Use them to reduce effort and time spent, to focus on the creative tasks humans excel at
 
+[^wealth]: I use the term *wealthy* not only in terms of money but also in
+    health, energy, relationships etc. It's about a complete life where
+    *everything* is awesome.
