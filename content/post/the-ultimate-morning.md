@@ -9,7 +9,7 @@ header:
   caption: "Create energy, become stronger, get focused and become smarter."
 ---
 
-<iframe src="https://anchor.fm/marcel-samyn/embed/episodes/Episode-3-The-Ultimate-Morning-Routine-e1tgsg" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/marcel-samyn/embed/episodes/The-Ultimate-Morning-Routine-How-To-Win-Every-Day-e1th7r" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 I see the morning as being **the foundation of my day**. If I mess it up, I feel
 tired, I'm distracted every get pissed too easily. It's not fun. So, feel
@@ -30,7 +30,7 @@ happen:
 - Get focused
 - Become smarter
 
-{{< youtube id="Pcus1mOUBz8" >}}
+{{< youtube id="W6rXe429Clc" >}}
 
 These four things have happened before the day has even started, before anyone
 else is awake yet---it's amazing! That feeling, knowing that you've done so much
