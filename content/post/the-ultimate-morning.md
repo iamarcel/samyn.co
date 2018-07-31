@@ -13,7 +13,7 @@ header:
 <iframe src="https://anchor.fm/marcel-samyn/embed/episodes/The-Ultimate-Morning-Routine-How-To-Win-Every-Day-e1th7r" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 I see the morning as being **the foundation of my day**. If I mess it up, I feel
-tired, I'm distracted every get pissed too easily. It's not fun. So, feel
+tired, I'm distracted and get pissed too easily. It's not fun. So, feel
 miserable about waking up? Need six hours to get out of your drowsiness? Tired
 and get nothing done during the day? Let me show you how I fixed it.
 
@@ -51,10 +51,10 @@ things, eventually. But all at once could be hard.
 ## Creating Energy
 
 This is one of those things people have difficulty accepting. I get it---I'm
-lazy, you're lazy, just human are lazy. But at some point, you make the click
-and you realize: energy is something you *generate*! It's not like a daily
-lottery or something---there are specific things you can do that will make you
-feel alert, awake and full of energy.
+lazy, you're maybe sometimes a tiny bit lazy, just humans are lazy. But at some
+point, you make the click and you realize: energy is something you *generate*!
+It's not like a daily lottery or something---there are specific things you can
+do that will make you feel alert, awake and full of energy.
 
 And I think the first few seconds after your alarm clock goes off---they're
 crucial here. That's the moment when your brain is deciding whether it wants to

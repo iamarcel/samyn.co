@@ -307,36 +307,36 @@ enableGitInfo = false
 languageName = "EN"
 weight = 1
 
-# [Languages.nl]
-# languageName = "NL"
-# weight = 2
-# publication_types = [
-#   'Uncategorized',  # 0
-#   'Conference paper',  # 1
-#   'Journal article',  # 2
-#   'Manuscript',  # 3
-#   'Report',  # 4
-#   'Book',  # 5
-#   'Book section',  # 6
-#   'Article'  # 7
-# ]
+[Languages.nl]
+languageName = "NL"
+weight = 2
+publication_types = [
+  'Uncategorized',  # 0
+  'Conference paper',  # 1
+  'Journal article',  # 2
+  'Manuscript',  # 3
+  'Report',  # 4
+  'Book',  # 5
+  'Book section',  # 6
+  'Article'  # 7
+]
 
-# [[Languages.nl.menu.main]]
-#   name = "Home"
-#   url = "#about"
-#   weight = 1
+[[Languages.nl.menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
 
-# [[Languages.nl.menu.main]]
-#   name = "Posts"
-#   url = "#posts"
-#   weight = 3
+[[Languages.nl.menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
 
 # [[Languages.nl.menu.main]]
 #   name = "Projects"
 #   url = "#projects"
 #   weight = 4
 
-# [[Languages.nl.menu.main]]
-#   name = "Contact"
-#   url = "#contact"
-#   weight = 6
+[[Languages.nl.menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6

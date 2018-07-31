@@ -19,7 +19,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Master of Science in Computer Science Engineering"
+  course = "Master in Computer Science Engineering"
   institution = "Ghent University (UGent)"
   year = 2018
 
