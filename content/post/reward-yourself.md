@@ -9,7 +9,7 @@ header:
   caption: "Reward yourself at the end of the day, so you can keep going with joy."
 ---
 
-<iframe src="https://anchor.fm/marcel-samyn/embed/episodes/Episode-1-Reward-Yourself-e1n742" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups" scrolling=no width="100%" height="185" frameborder="0" src="https://embed.radiopublic.com/e?if=the-marcel-show-GmRArX&ge=s1!96ade"></iframe>
 
 You saw some inspirational video on YouTube or talked to someone that challenged
 you and now you're **on fire**. You work all day, get more done than you did the

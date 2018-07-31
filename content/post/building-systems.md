@@ -13,7 +13,7 @@ header:
   caption: "Build systems that make your work easier and your value will explode."
 ---
 
-<iframe style="margin:auto" src="https://anchor.fm/marcel-samyn/embed/episodes/Episode-2-Why-the-Foundation-of-a-Successful-Life-is-Building-a-Leverage-Stack-e1p18b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups" scrolling=no width="100%" height="185" frameborder="0" src="https://embed.radiopublic.com/e?if=the-marcel-show-GmRArX&ge=s1!60242"></iframe>
 
 To become massively successful, you need to give massive value to the world. But
 if you think you can do that by hustling and grinding day and night, I'm sorry
