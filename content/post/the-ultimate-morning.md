@@ -1,5 +1,6 @@
 ---
 title: "The Ultimate Morning: How to Win Every Day"
+description: Create energy, become stronger, get focused and become smarter.
 date: 2018-07-30T20:31:00+02:00
 draft: false
 tags:
@@ -30,7 +31,7 @@ happen:
 - Get focused
 - Become smarter
 
-{{< youtube id="W6rXe429Clc" >}}
+{{< youtube id="W6rXe429Clc" title="The Ultimate Morning: How To Win Every Day" >}}
 
 These four things have happened before the day has even started, before anyone
 else is awake yet---it's amazing! That feeling, knowing that you've done so much

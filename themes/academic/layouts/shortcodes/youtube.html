@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "{{ .Get "title" }}",
+    {{ if .Page.Description }}"description": "{{ .Page.Description }}",{{ end }}
+    "thumbnailUrl": "http://img.youtube.com/vi/{{ .Get "id" }}/hqdefault.jpg",
+    "uploadDate": "{{ .Page.Date }}",
+    "publisher": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.name }}",
+    },
+    "url": "https://www.youtube.com/watch?v={{ .Get "id" }}",
+    "contentUrl": "https://www.youtube.com/watch?v={{ .Get "id" }}",
+    "embedUrl": "https://www.youtube.com/embed/{{ .Get "id" }}"
+  }
+</script>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/{{ .Get "id" }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>

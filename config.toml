@@ -57,6 +57,8 @@ enableGitInfo = false
   # Your details.
   name = "Marcel Samyn"
   role = "Computer science student by day. Designer–web-developer–photographer–performance-obsessed–theater-making maniac by night."
+  gender = "male"
+  birthDate = "1996-04-27"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -64,7 +66,7 @@ enableGitInfo = false
   url = "http://litoziekla.be" } ]
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
-  # avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "avatar.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "w@mrcl.io"
   # address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
@@ -247,6 +249,10 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/iamarcel"
+
+  [params.podcast]
+    url = "https://anchor.fm/s/c864c8/podcast/rss"
+    name = "The Marcel Show"
 
 
 # Navigation Links

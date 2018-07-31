@@ -1,0 +1,18 @@
+<script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Person",
+    "name" : "{{ .Site.Params.name }}",
+    "url" : "{{ .Site.BaseURL }}",
+    "sameAs" : [
+      {{ range $i, $profile := .Site.Params.social }}
+        {{ if $i }}, {{ end }}"{{ $profile.link }}"
+      {{ end }}
+    ],
+    "email": "{{ .Site.Params.email }}",
+    "jobTitle": "{{ .Site.Params.role }}",
+    "gender": "{{ .Site.Params.gender }}",
+    "birthDate": "{{ .Site.Params.birthDate }}",
+    "image": "{{ (printf "/img/%s" $.Site.Params.avatar) | absURL }}"
+  }
+</script>

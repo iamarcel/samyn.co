@@ -137,6 +137,12 @@
   {{ partial "cookie_consent" . }}
   {{ partial "head_custom" . }}
 
+  {{ if .Site.Params.podcast.url }}
+  <link type="application/rss+xml" rel="alternate" title="{{ .Site.Params.podcast.url }}" href="{{ .Site.Params.podcast.name }}"/>
+  {{ end }}
+
+  {{ partial "seo/website" . }}
+  {{ partial "seo/author" . }}
   {{ partial "seo/breadcrumb" . }}
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
