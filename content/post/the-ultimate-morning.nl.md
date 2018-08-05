@@ -30,6 +30,8 @@ te krijgen:
 - Focus vinden
 - Slimmer worden
 
+{{< youtube id="A8fNZXitSi0" title="De perfecte ochtend: hoe je elke dag kan winnen" >}}
+
 Dus die vier dingen zijn al gebeurd nog voor de dag is begonnen, voor er iemand
 anders wakker is---zalig, toch? Dit gevoel, weten dat je al zo veel hebt gedaan,
 is van onschatbare waarde. Dus ja, dat betekent wel dat je vroeg moet opstaan.
