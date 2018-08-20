@@ -1,17 +1,24 @@
-+++
-title = "Gids: de perfecte studeerlaptop"
-date = 2018-06-20T10:15:17
-math = false
-highlight = false
-draft = true
-tags = ["technology"]
-+++
+---
+title: "De perfecte studeerlaptop"
+description: ""
+date: 2018-08-20T16:16:17
+math: false
+highlight: false
+draft: false
+tags: ["technology"]
+header:
+  image: headers/laptops.jpg
+  caption: "Waar moet je op letten om een laptop te vinden voor studenten?"
+---
 
-Tijdens je studies heb je een laptop nodig. Hoe ga je anders je dagen verspillen
-met naar Netflix te kijken en je Facebook te checken? Om dan tussendoor snel
-papers te kunnen schrijven, te studeren en practica te maken, moet hij mee
-werken, altijd paraat staan en aan de snelheid van het licht doen wat je'm
-vraagt.
+**Wat zijn de eigenschappen van de beste laptop voor studenten? Kan je een betere
+laptop vinden voor minder geld? Heb je een gaminglaptop nodig als
+informatica-student? *Moet* een laptop zo veel kosten?**
+
+Er is geen ontkomen aan: tijdens je studies heb je een laptop nodig. Hoe ga je
+anders je dagen verspillen met naar Netflix te kijken en je Facebook te checken?
+Al deze belangrijke sociale activiteiten hebben tijd nodig, dus wanneer je
+schoolwerk moet doen is het van cruciaal belang dat je laptop **alles aan kan.**
 
 Is het logisch dat je dan op zoek zou gaan naar een laptop die *echt goed* is in
 wat hij moet doen?
@@ -24,8 +31,8 @@ Computerfabrikanten zetten een hele hoop *'cijfertjes'* in de kijker zodat je go
 kan zien welke meer giga-dinges heeft dan de andere maar zoals je hier zal
 lezen, zijn die voor de meeste mensen gewoon niet zo belangrijk.
 
-Lees dit en je kent de principes, de fundamenten om een laptop te kiezen waar je
-op verliefd gaat worden.
+Hieronder lees je alles wat je moet weten om slimmer te zijn dan de verkopers en
+precies te weten wat je nodig hebt. Klaar?
 
 {{% toc %}}
 
@@ -55,11 +62,8 @@ Heb je ook soms dat gevoel dat computers trager zijn aan het worden in plaats
 van sneller? Hoe komt het dan dat iedereen de hele tijd zit te zeggen dat deze
 nieuwe laptops zo snel zijn?
 
-Diep binnenin de siliciumverbindingen zitten een paar details verstopt over hoe
-een computer echt werkt. Normaal gezien leer je dit pas wanneer je
-computerwetenschappen studeert maar ik heb dat al voor jou gedaan. Met deze
-inzichten krijg je een veel beter idee van *waarom* een computer snel of traag
-is.
+Wat een interessante vragen! Het antwoord vind je wanneer je nét iets beter weet
+hoe een computer werkt in zijn geheel. Dit moet je weten:
 
 *Processors zijn te snel.* De processor maakt alle berekeningen: hij beslist wat
 je ziet op je scherm en wat er precies moet gebeuren. Processors zijn snel.
@@ -70,10 +74,10 @@ typen.
 data legt een hele weg af: 
 
 1. van je harde schijf (HDD; "secundair geheugen", permanente opslag),
-2. via je werkgeheugen ("primair gebeugen"),
+2. via je werkgeheugen (RAM; "primair gebeugen"),
 3. naar de processor. 
 
-Die eerste twee zijn stukken trager dan je processor.
+Die eerste twee zijn veel, veel trager dan je processor.
 
 *Computers zijn meestal aan het wachten.* Jep. Dit is een direct gevolg van de
 twee puntjes hierboven. Jij kan niet snel genoeg typen en je harde schijf kan
@@ -81,11 +85,9 @@ niet snel genoeg data doorsturen, dus je processor zit daar maar te
 wachten[^cpu-wachten].
 
 *Laptops willen vooral energie besparen.* Harder rekenen betekent meer energie
-verbruiken. Van een laptop wil je dat hij vooral niet plat is na een uur dus je
-computer zal automatisch je processor trager maken of als je er meerdere hebt,
-die gewoon uit zetten. Mijn smartphone, bijvoorbeeld, heeft 8 cores maar 98% van
-de tijd is er maar eentje aan het draaien aan 10% van zijn capaciteit. De kans
-is dus groot dat je computer sneller gaat als hij in het stopcontact zit!
+verbruiken. Van een laptop wil je dat hij vooral niet plat is na tien minuten
+dus hij gaat zichzelf automatisch trager maken. (Net zoals je hersenen wanneer
+je niet genoeg hebt geslapen.)
 
 
 
@@ -105,8 +107,7 @@ Als je één ding onthoudt uit deze post, laat het dit zijn: **neem een computer
 met een SSD**. Dat is je secundaire opslagruimte, je "harde schijf", waar je
 gegevens op staan. Een SSD is een paar honderd keer sneller dan een gewone harde
 schijf, wat je direct gaat voelen omdat je computer en alle programma's veel
-sneller opstarten. (opstarten is basically een hele hoop bestandjes kopieren van
-je harde schijf naar je werkgeheugen)
+sneller opstarten[^opstarten].
 
 Het nadeel van een SSD is dat ze duurder zijn dan HDD's dus je zal wat minder
 opslagruimte hebben. Als je zo veel ruimte nodig hebt, is het waarschijnlijk
@@ -123,7 +124,7 @@ Twee vragen voor je:
 - Waar let je op als je een laptop koopt?
 - Waar liggen je frustraties met vorige laptops? (of die van vrienden)
 
-Je antwoorden zouden ongeveer hettzelfde moeten zijn: als je een computer zoekt,
+Je antwoorden zouden ongeveer hetzelfde moeten zijn: als je een computer zoekt,
 zoek dan eentje waar je niet meer dezelfde problemen mee zal hebben als de
 vorige. Scharnieren gebarsten? Zoek een laptop met stevigere onderdelen
 (slechte scharnieren vind je bij heel goedkope laptops). Programma's starten te
@@ -149,26 +150,24 @@ van het toetsenbord en duw naar beneden. Neem hem vast met je twee handen en
 draai in de tegengestelde richting. Kraken of buigen zijn slechte tekens. Op die
 manier schakel je al 80% van de computers uit.
 
-De laptop waar ik dit op typ voldoet aan militaire specificaties (MIL-SPEC) en
-is bestand tegen vallen, stof en vloeistof. (Jup, je kan er een glas over leeg
-gieten. Laptop doesn't give a damn.) Zijn toetsenbord wordt beschouwd als één
-van de beste op de markt. Als je de hele tijd typt op je computer, is het dan
-niet belangrijk dat je een echt goed toetsenbord hebt?
+Doe eens het scherm open en dicht en denk "gaat dit het 10 000 keer volhouden?"
+(dat is 5 keer open en dicht elke dag voor 5 jaar).
+
+Is het toetsenbord aangenaam en gemakkelijk om op te typen? Heb je het gevoel
+dat je hier beter op typt dan de meeste computers? Dit is het meest gebruikte
+onderdeel van elke computer dus het lijkt me een goed idee dat je zorgt dat het
+in orde is.
 
 
 
-# De cijfers
-
+# Conclusie: eigenschappen van een goede laptop voor studenten
 Ik zet even op een rijtje wat ik zou aanbevelen aan een student (dat is ook wat
 ik voor mezelf zou zoeken, zelfs als programmeur heb ik niet veel meer nodig):
 
-- Een SSD van 256 GB (128 GB gaat maar kan nipt zijn)
+- Een SSD van 256 GB
 - 8 GB RAM
-
-Dat is eigenlijk het belangrijkste! Daarnaast is het kwestie van de
-bouwkwaliteit te controleren. Voelt het toetsenbord goed? Kraakt hij niet? Zijn
-de scharnieren stevig genoeg om 10 000 keer open en dicht te gaan? (dat is 5
-keer open en dicht elke dag voor 5 jaar)
+- Een behuizing die lang mee gaat en liefst goedkoop herstelbaar is (\*kuch\*
+  Apple)
 
 Sommige mensen hebben wat meer nodig. Als je wil games spelen of 3D-werk moet
 doen (ik denk aan architectuurstudenten), ga je een deftige GPU nodig hebben.
@@ -178,34 +177,48 @@ Maar jullie zijn *speciallekes* en niet het onderwerp van dit artikel :wink:
 
 # Waar vind je die computers?
 
-Met die cijfers zit je al heel snel aan 800 euro. Wil je weten hoe je die prijs
-kan halveren? Wil je precies weten waar je die deals kan vinden? In ieder geval
-niet in je lokale multimediawinkel.
+Met die cijfers zit je al heel snel aan 800 euro. Het ding is: voor de **helft van
+die prijs vind je betere laptops**---als je weet waar te zoeken.
 
-Ik stuur je graag de antwoorden in je mailbox. Dan kan je lid worden van mijn
-coole clubje mensen 
+Ik help je graag op je zoektocht. Vul je e-mailadres hieronder in en je krijgt
+meteen de twee dingen die tonen waar je, volgens mij, de beste laptops kan
+vinden. Plus, je hebt m'n contactgegevens:
 
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<style type="text/css">
+	#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+	#mergeRow-gdpr {margin-top: 20px;}
+	#mergeRow-gdpr fieldset label {font-weight: normal;}
+	#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+</style>
+<div id="mc_embed_signup" style="background: #eee; padding: 10px">
+<form action="https://blog.us2.list-manage.com/subscribe/post?u=0728ff4f480f5cf23a0afbaa3&amp;id=dc13095458" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="e-mailadres" required>
+<div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+    <div class="content__gdpr">
+        <label>Marketingtoestemmingen</label>
+        <p>Kies alle manieren waarop u wilt horen van Marcel Samyn:</p>
+        <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+		<label class="checkbox subfield" for="gdpr_425"><input type="checkbox" id="gdpr_425" name="gdpr[425]" value="Y" class="av-checkbox "><span>Email</span> </label>
+        </fieldset>
+        <p>U kunt zich op elk moment afmelden door te klikken op de link in de voettekst van onze e-mails. Voor informatie over ons privacybeleid, bezoek onze website.</p>
+    </div>
+    <div class="content__gdprLegal">
+        <p>We gebruiken MailChimp als ons marketingplatform. Door hieronder te klikken om u te abonneren, erkent u dat uw informatie zal worden overgebracht naar MailChimp voor verwerking. Lees <a href="https://mailchimp.com/legal/" target="_blank">hier</a> meer over de privacypraktijken van MailChimp.</p>
+    </div>
+</div>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0728ff4f480f5cf23a0afbaa3_dc13095458" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Stuur maar door" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
 
-
-# ProTip: ga business
-
-Als bedrijven laptops kopen voor hun medewerkers, hebben ze meestal een paar
-specifieke noden:
-
-- Heeft mat scherm
-- Heeft goed toetsenbord
-- Gaat jaren mee
-- Is gemakkelijk te herstellen of te upgraden
-- Heeft minder rommel op voorhand geinstalleerd
-- Kost niet te veel
-
-Zie je hoe dit een eigenschappen zijn waar we het zonet over hebben gehad?
-Daarom raad ik je aan om te zeggen "school is ook business!" en die computers
-uit te zoeken.
-
-
-
-[^cpu-wachten]: Ik heb het hier natuurlijk over *het algemene geval*. Als je
-    zwaar werk moet doen zoals programma's compileren, gigabytes aan data
-    verwerken of vloeistofstromen moet berekenen, ga je wél een verschil merken
-    tussen een snelle en een trage processor.
+<!--End mc_embed_signup-->
