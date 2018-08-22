@@ -1,7 +1,7 @@
 ---
 title: "De perfecte studeerlaptop"
 description: ""
-date: 2018-08-20T16:16:17
+date: 2018-08-20T16:16:18
 math: false
 highlight: false
 draft: false
