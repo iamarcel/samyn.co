@@ -43,6 +43,14 @@ sure to remember this habit.
 What are your habits for staying on top of your game? What are some of your
 favorite questions to ask yourself? [Tweet to me about it!](https://twitter.com/intent/tweet?via=marcelsamyn)
 
+<blockquote>
+<h4>Join the Challenge</h4>
+This won't work if you don't <em>regularly</em> answer these questions.
+I've set up a 6-week challenge with automated emails so you'll get
+reminded automatically.
+<a href="https://mailchi.mp/c37fc641902a/weekly-questions-challenge" class="btn btn-primary">Join the Challenge</a>
+</blockquote>
+
 ## Weekly Assessment
 ### Identity & Personal Freedom
 How well have I expressed my true self this week? Do my friends, family and colleagues know who I am and what I desire from life?
