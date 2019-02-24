@@ -1,27 +1,33 @@
 ---
-title: "De perfecte studeerlaptop"
+title: "Een goedkope laptop kan beter zijn dan een dure - dit is waarom"
 description: ""
 date: 2018-08-20T16:16:18
+last_updated: 2019-02-24 09:53
 math: false
 highlight: false
 draft: false
 tags: ["technology"]
 header:
   image: headers/laptops.jpg
-  caption: "Waar moet je op letten om een laptop te vinden voor studenten?"
+  caption: "Waar moet je op letten om de perfecte laptop te vinden?"
 ---
 
-**Wat zijn de eigenschappen van de beste laptop voor studenten? Kan je een betere
-laptop vinden voor minder geld? Heb je een gaminglaptop nodig als
-informatica-student? *Moet* een laptop zo veel kosten?**
+**Wat zijn de eigenschappen van de ideale laptop? Kan je een betere laptop
+vinden voor minder geld? Maakt de processor het verschil? *Moet* een laptop zo
+veel kosten?**
 
-Er is geen ontkomen aan: tijdens je studies heb je een laptop nodig. Hoe ga je
+Er is geen ontkomen aan: tijdens je leven heb je een laptop nodig. Hoe ga je
 anders je dagen verspillen met naar Netflix te kijken en je Facebook te checken?
-Al deze belangrijke sociale activiteiten hebben tijd nodig, dus wanneer je
-schoolwerk moet doen is het van cruciaal belang dat je laptop **alles aan kan.**
+:wink:
 
-Is het logisch dat je dan op zoek zou gaan naar een laptop die *echt goed* is in
-wat hij moet doen?
+Even serieus nu. De meeste mensen zoeken naar drie dingen:
+
+1. Ik wil een laptop die niet traag is wanneer ik iets probeer te doen.
+2. Ik wil een laptop die niet direct kapot gaat.
+3. Ik wil een laptop die niet te veel kost.
+
+Is het logisch dat je op zoek zou gaan naar een laptop die *echt goed* is in wat
+hij moet doen?
 
 **ProTip™** Kijk niet naar wat ze in de winkel aanbieden. Je wil niet de
 computer kiezen die in de rekken staat te blinken omdat ze winstgevend is---je
@@ -38,18 +44,18 @@ precies te weten wat je nodig hebt. Klaar?
 
 
 
-# Een laptop voor studenten
+# Een laptop voor jou
 
 Laten we beginnen met een verlanglijstje op te stellen. Wat is belangrijk en in
 welke volgorde? Deze neem ik in acht voor de rest van onze discussie.
 
-1. *Prijs.* Ik moet nog geld hebben om uit te gaan hè!
+1. *Prijs.* Ik moet nog geld hebben om chocolade te kopen hè!
 2. *Opstartsnelheid.* Je zal je computer regelmatig in en uit je tas halen. Hij
    moet snel in gang schieten en programma's kunnen opstarten zonder dat je moet
    wachten.
 2. *Multitasken.* Twintig tabbladen voor research, Facebook en YouTube; een
-   Word-document of drie en misschien nog iets als R Studio voor je
-   statistiek---het moet allemaal samen kunnen draaien en wisselen tussen
+   Word-document of drie en misschien nog Excel of een ander
+   rekenprogramma---het moet allemaal samen kunnen draaien en wisselen tussen
    programmas moet vlot gaan.
 3. *Draagbaarheid.* De meeste mensen hebben geen zin om een giga-laptop mee te
    dragen. Niet veel groter dan een A4'tje, alsjeblieft.
@@ -140,10 +146,11 @@ jaar---zeker niet als je gewoon een beetje wil surfen en teksten typen. Probleem
 is dat fabrikanten hun goedkope laptops doelbewust niet te stevig maken zodat je
 binnen drie jaar een nieuwe nodig hebt (*planned obsolesence* heet dat).
 
-Als student ga je niet lief zijn voor je laptop. Die gaat overal mee op stap, op
-de fiets, op die kantelende tafeltjes in auditoria en in het park wanneer het
-net begint te regenen. Daarom stel ik voor dat je van **bouwkwaliteit een
-prioriteit maakt**.
+Ik vind niet dat je een laptop moet ronddragen op een gouden kussentje. Die gaat
+overal mee op stap, op de fiets, op je schoot in een wiebelende trein en in het
+park wanneer het net begint te regenen. Is het niet logisch dat een laptop een
+beetje weerstand biedt tegen de alledaagse omstandigheden? Daarom stel ik voor
+dat je van **bouwkwaliteit een prioriteit maakt**.
 
 Probeer dit eens als je in een laptopwinkel bent: zet je vinger op het midden
 van het toetsenbord en duw naar beneden. Neem hem vast met je twee handen en
@@ -160,18 +167,20 @@ in orde is.
 
 
 
-# Conclusie: eigenschappen van een goede laptop voor studenten
-Ik zet even op een rijtje wat ik zou aanbevelen aan een student (dat is ook wat
-ik voor mezelf zou zoeken, zelfs als programmeur heb ik niet veel meer nodig):
+# Conclusie: eigenschappen van een goede, goedkope laptop
+Ik zet even op een rijtje wat ik zou aanbevelen aan de meeste mensen (dat is ook
+wat ik voor mezelf zou zoeken, zelfs als programmeur heb ik niet veel meer
+nodig):
 
 - Een SSD van 256 GB
 - 8 GB RAM
 - Een behuizing die lang mee gaat en liefst goedkoop herstelbaar is (\*kuch\*
   Apple)
 
-Sommige mensen hebben wat meer nodig. Als je wil games spelen of 3D-werk moet
-doen (ik denk aan architectuurstudenten), ga je een deftige GPU nodig hebben.
-Maar jullie zijn *speciallekes* en niet het onderwerp van dit artikel :wink:
+Sommige mensen hebben wat meer nodig. Als je wil games spelen, serieus video's
+bewerken of 3D-werk moet doen (ik denk aan architecten en professionele
+video-bewerkers), ga je een deftige GPU nodig hebben. Maar jullie zijn
+*speciallekes* en niet het onderwerp van dit artikel :wink:
 
 
 
