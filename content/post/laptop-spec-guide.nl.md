@@ -2,7 +2,7 @@
 title: "Een goedkope laptop kan beter zijn dan een dure - dit is waarom"
 description: ""
 date: 2018-08-20T16:16:18
-last_updated: 2019-02-24 09:53
+lastmod: 2019-02-24 09:53
 math: false
 highlight: false
 draft: false
